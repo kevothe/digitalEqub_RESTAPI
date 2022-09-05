@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@digitalequb.ciccq3b239wx.us-east-1.rds.amazonaws.com" uuid="9d50abd1-a40f-4f0e-adc3-44696264e0a0">
+      <database-info product="MySQL" version="8.0.28" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="8.0.28">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,newaccounts</introspection-schemas>
+    </data-source>
+    <data-source name="@digitalequbusers.ciccq3b239wx.us-east-1.rds.amazonaws.com" uuid="8467f10b-715c-4550-bac8-542e3c6e6a64">
+      <database-info product="MySQL" version="8.0.28" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="8.0.28">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,accounts</introspection-schemas>
+    </data-source>
+  </component>
+</project>
